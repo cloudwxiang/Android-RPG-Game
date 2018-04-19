@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="155dp"
+        android:text="Start a New Game"
+        android:onClick="GameActivity"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Read Game Progress"
+        android:onClick="GameProgressActivity"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="158dp"
+        android:text="Settings"
+        android:onClick="SettingActivity"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp"
+        android:text="Exit"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="382dp"
+        android:onClick="LoginActivity"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="166dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:autoText="false"
+        android:text="Menu"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="38dp" />
+</RelativeLayout>

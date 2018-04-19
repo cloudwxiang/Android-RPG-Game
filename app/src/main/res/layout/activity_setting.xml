@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="70dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/radioButton2"
+        android:text="High"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="77dp"
+        android:layout_height="47dp"
+        android:layout_alignStart="@+id/seekBar"
+        android:layout_alignTop="@+id/editText2"
+        android:text="Low"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="160dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/editText"
+        android:text="Log Out"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="106dp"
+        android:onClick="GotoLoginActivity"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="167dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="122dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="User"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="166dp"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="183dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Graphics"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="159dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/editText3"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="166dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="192dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Sound"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Settings"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="159dp"
+        android:layout_height="49dp"
+        android:layout_alignBottom="@+id/editText5"
+        android:layout_alignParentEnd="true"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="165dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="88dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Language"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/radioButton2"
+        android:layout_alignTop="@+id/button10"
+        android:text="Cancel" />
+
+</RelativeLayout>

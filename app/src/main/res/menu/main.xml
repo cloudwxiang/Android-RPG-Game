@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_Menu"
+        android:orderInCategory="100"
+        android:title="Go back to Menu"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_Game"
+        android:orderInCategory="100"
+        android:title="Start new game"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_Settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_GameProgress"
+        android:orderInCategory="100"
+        android:title="Game progress"
+        app:showAsAction="never"/>
+
+</menu>
