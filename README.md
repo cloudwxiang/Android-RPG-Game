@@ -35,6 +35,14 @@ Set the font size.
 
 
 
+# Henry comments 27/April
+- This file still needs compile instructions, and directory explanation so I know where to find stuff.
+- Where is your changelog.md file?
+- Your data hasn't progressed enough. You need to get to this very quickly, as you can't start building your game until you can at least load the levels/world of your game. So work on getting loading working (from data files) asap.
+
+
+
+
 
 
 
