@@ -42,7 +42,13 @@ Set the font size.
 
 
 
+Week 6
+finish seekbar for the game settings actyivity code, it could be change the sounds volume.
 
+
+
+Week 7
+add code listview for the game progress activity and database system for it. made it could store the user's information about game progress. but there is a conflict with user login database system. It'll be done before next monday.
 
 
 
